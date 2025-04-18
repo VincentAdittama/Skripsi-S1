@@ -1,0 +1,42 @@
+\documentclass{scrartcl}
+\usepackage[indonesian]{babel}
+\usepackage{hyperref}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+% Tambahkan input variables.tex setelah \documentclass
+\input{variables}
+
+\title{Judul Skripsi}
+\author{Nama Mahasiswa}
+\date{\today}
+\begin{document}
+\maketitle
+
+% Struktur utama menggunakan subfile
+
+% Cover
+\input{cover}
+
+% Lembar Pengesahan
+\input{approval}
+
+% Abstrak
+\input{abstract}
+
+% Bab 1
+\input{bab1}
+
+% Bab 2 (atau bab berikutnya, tambahkan sesuai kebutuhan)
+\input{bab2}
+
+% Bab Penutup/Kesimpulan
+\input{conclusion}
+
+% Daftar Pustaka
+\input{bibliography}
+
+% Lampiran
+\input{appendix}
+
+\end{document}
