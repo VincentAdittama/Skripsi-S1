@@ -1,0 +1,21 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{styles}[2025/04/19 Custom styles for Skripsi]
+
+\RequirePackage{tikz}
+\usetikzlibrary{shadows}
+\RequirePackage{tcolorbox}
+\RequirePackage{varwidth}
+\tcbuselibrary{skins}
+
+% Define a new tcolorbox style with a red border and drop shadow
+\newtcolorbox{redshadowbox}{%
+  enhanced,
+  box align=center,
+  colback=white,
+  colframe=red,
+  boxrule=1pt,
+  arc=2mm,
+  drop shadow,
+}
+
+\endinput

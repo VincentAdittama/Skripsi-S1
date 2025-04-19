@@ -4,23 +4,44 @@
 % Contoh:
 \begin{titlepage}
 \centering
-\vspace*{1cm}
+\LARGE
+\bfseries
 
-{\Huge\bfseries \ThesisTitle\par}
-
-\vspace{2cm}
-
-{\Large \AuthorName\par}
-{\large \AuthorNIM\par}
-
-\vfill
-
-{\large Program Studi\par}
-{\large Fakultas\par}
-{\large Universitas\par}
+% Title
+\MakeUppercase{\ThesisTitle}\par
 
 \vspace{1cm}
 
-{\large \GraduationYear\par}
+% Subtitle
+SKRIPSI\par
+Program Studi \UniversityProgram\par
+
+% Logo
+\vfill
+
+% Centered logo from images folder
+\includegraphics[width=0.4\textwidth]{../images/logo.png}
+
+\vfill
+
+% Oleh section
+Oleh:\par
+{\AuthorName\par}
+NIM: \AuthorNIM\par
+
+\vfill
+
+% Program, Faculty, University
+Jurusan \UniversityDepartment\par
+Fakultas \UniversityFaculty\par
+\UniversityName\par
+
+\vspace{1cm}
+
+% Year
+\begin{redshadowbox}
+\centering
+\GraduationYear\par
+\end{redshadowbox}
 
 \end{titlepage}

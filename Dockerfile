@@ -9,6 +9,8 @@ RUN tlmgr install \
     biber \
     geometry \
     pgf \
-    musixtex
+    musixtex \
+    varwidth \
+    tcolorbox
 
 WORKDIR /workdir
