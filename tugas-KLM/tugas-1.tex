@@ -3,23 +3,48 @@
 % Packages
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage[indonesian]{babel}  % Added for proper date formatting
 \usepackage{lmodern}
+\usepackage{microtype}        % Improves character protrusion and font expansion
+\usepackage{setspace}         % Line spacing
+\usepackage{parskip}          % No paragraph indent, add space between paragraphs
 \usepackage{geometry}
 \usepackage{amsmath, amssymb}
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{enumitem}
+\usepackage{fancyhdr}         % Headers & footers
+\usepackage{titlesec}         % Section styling
 
 % Include variables from the parent tex directory
 \input{../tex/variables.tex}
 
 % Page setup
 \geometry{margin=1in}
+\onehalfspacing            % 1.5 line spacing
 
-% Title
-\title{Tugas 1 \\ \large Mata Kuliah KLM}
-\author{Nama: \underline{\AuthorName} \\ NIM: \underline{\AuthorNIM}}
-\date{\today}
+% Header & footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\AuthorName\ (\AuthorNIM)}
+\fancyhead[R]{Tugas 1\,--\,Mata Kuliah KLM}
+\fancyfoot[C]{\thepage}
+
+% Section titles
+\titleformat{\section}{\large\bfseries}{\thesection.}{1em}{}
+\titleformat{name=\section,numberless}{\large\bfseries}{}{0pt}{}
+
+% Custom title page
+\renewcommand{\maketitle}{
+  \begin{titlepage}
+    \centering
+    \includegraphics[width=0.2\textwidth]{../images/logo.png}\par\vspace{1cm}
+    {\Huge\bfseries Tugas 1}\par\vspace{0.5em}
+    {\Large Mata Kuliah KLM}\par\vspace{2cm}
+    {\large Nama: \AuthorName\\NIM: \AuthorNIM}\par\vspace{1cm}
+    {\large \today}\par
+  \end{titlepage}
+}
 
 \begin{document}
 
