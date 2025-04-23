@@ -19,3 +19,7 @@ Institut Seni Indonesia Yogyakarta
 - What is intricate melody, this should have something to do with harmony, and it's horizontal (melody) relation.
 
 ## What to answer/Purpose
+
+# How to tun?
+
+`./build.sh`

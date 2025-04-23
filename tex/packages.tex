@@ -17,6 +17,13 @@
 % Font
 \usepackage{newtxtext,newtxmath}
 
+% Justified text without hyphenation and improved spacing
+\usepackage[none]{hyphenat}   % Disable hyphenation
+\usepackage{microtype}        % Improve spacing with font expansion
+\sloppy                       % Allow flexible spacing to avoid overfull lines
+\raggedbottom                 % Prevent vertical stretching between paragraphs
+\emergencystretch=1em         % Allow more stretch to avoid overfull boxes
+
 % Custom styles
 \usepackage{styles}
 
