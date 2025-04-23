@@ -3,21 +3,24 @@
 % Packages
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[indonesian]{babel}  % Added for proper date formatting
+\usepackage[indonesian]{babel}
 \usepackage{lmodern}
-\usepackage{microtype}        % Improves character protrusion and font expansion
-\usepackage{setspace}         % Line spacing
-\usepackage{parskip}          % No paragraph indent, add space between paragraphs
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
 \usepackage{geometry}
 \usepackage{amsmath, amssymb}
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{enumitem}
-\usepackage{fancyhdr}         % Headers & footers
-\usepackage{titlesec}         % Section styling
+\usepackage{fancyhdr}
+\usepackage{titlesec}
 
 % Include variables from the parent tex directory
 \input{../tex/variables.tex}
+
+% Define assignment title as a variable in the preamble
+\newcommand{\AssignmentTitle}{Assignment 1: Quiz}
 
 % Page setup
 \geometry{margin=1in}
@@ -27,7 +30,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[L]{\AuthorName\ (\AuthorNIM)}
-\fancyhead[R]{Tugas 1\,--\,Mata Kuliah KLM}
+\fancyhead[R]{\AssignmentTitle\,\--\,Mata Kuliah KLM}
 \fancyfoot[C]{\thepage}
 
 % Section titles
@@ -39,10 +42,10 @@
   \begin{titlepage}
     \centering
     \includegraphics[width=0.2\textwidth]{../images/logo.png}\par\vspace{1cm}
-    {\Huge\bfseries Tugas 1}\par\vspace{0.5em}
-    {\Large Mata Kuliah KLM}\par\vspace{2cm}
+    {\Huge\bfseries \AssignmentTitle}\par\vspace{0.5em}
+    {\Large Mata Kuliah Kajian Literatur Musik}\par\vspace{2cm}
     {\large Nama: \AuthorName\\NIM: \AuthorNIM}\par\vspace{1cm}
-    {\large \today}\par
+    {\large 15 March 2025}\par
   \end{titlepage}
 }
 
@@ -52,24 +55,26 @@
 
 \section*{Instruksi}
 \begin{enumerate}[label=\arabic*.]
-    \item Jawablah setiap soal dengan jelas dan lengkap.
-    \item Tulis jawaban Anda di bawah setiap soal.
-    \item Kumpulkan tugas sebelum deadline yang ditentukan.
+    \item Susun daftar kepustakaan beranotasi berdasarkan kata kunci yang diberikan.
+    \item Format pengumpulan:
+    \begin{itemize}
+        \item Email ke: indrawan\_andre@isi.ac.id
+        \item Subjek email: KLM\_QUIZ\_GNP 2025
+        \item Nama file: KLM\_QUIZ\_[NIM]\_[Nama]
+    \end{itemize}
 \end{enumerate}
 
-\section*{Soal 1}
-Tuliskan soal pertama di sini.
+\section*{Tugas Kepustakaan Beranotasi}
+Susunlah daftar kepustakaan beranotasi berdasarkan kata kunci berikut ini yang terkait dengan topik penelitian Anda. Setiap entri bibliografi harus disertai dengan anotasi yang menjelaskan isi dan relevansi sumber tersebut.
 
-\vspace{3cm}
+\subsection*{Kata Kunci Penelitian}
+\begin{itemize}
+    \item Model Markov
+    \item Pola ritme
+    \item Komposisi algoritmik
+    \item Musik komputasional
+\end{itemize}
 
-\section*{Soal 2}
-Tuliskan soal kedua di sini.
-
-\vspace{3cm}
-
-\section*{Soal 3}
-Tuliskan soal ketiga di sini.
-
-\vspace{3cm}
+\vspace{1cm}
 
 \end{document}
