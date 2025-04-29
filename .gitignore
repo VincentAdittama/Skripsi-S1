@@ -314,3 +314,5 @@ build/
 *.out
 *.toc
 *.pdf
+
+.DS_Store
