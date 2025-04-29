@@ -1,0 +1,87 @@
+\documentclass[a4paper,12pt]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[indonesian]{babel}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+
+% Include variables from the parent tex directory
+\input{../tex/variables.tex}
+
+% Define assignment title as a variable in the preamble
+\newcommand{\AssignmentTitle}{Assignment 2 : PRT}
+
+% Page setup
+\geometry{margin=1in}
+\onehalfspacing            % 1.5 line spacing
+
+\sloppy
+
+% Header & footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\AuthorName\ (\AuthorNIM)}
+\fancyhead[R]{\AssignmentTitle\,\--\,Mata Kuliah KLM}
+\fancyfoot[C]{\thepage}
+
+% Section titles
+\titleformat{\section}{\large\bfseries}{\thesection.}{1em}{}
+\titleformat{name=\section,numberless}{\large\bfseries}{}{0pt}{}
+
+% Custom title page
+\renewcommand{\maketitle}{
+  \begin{titlepage}
+    \centering
+    \includegraphics[width=0.2\textwidth]{../images/logo.png}\par\vspace{1cm}
+    {\Huge\bfseries \AssignmentTitle}\par\vspace{0.5em}
+    {\Large Mata Kuliah Kajian Literatur Musik}\par\vspace{2cm}
+    {\large Nama: \AuthorName\\NIM: \AuthorNIM}\par\vspace{1cm}
+    {\large 30 April 2025}\par
+  \end{titlepage}
+}
+
+\begin{document}
+
+\maketitle
+
+\section*{Instruksi}
+\begin{enumerate}
+    \item \textbf{Literature Review}
+    \item Format pengumpulan:
+    \begin{itemize}
+        \item Email ke: dr.andre.indrawan@google.com
+        \item Subjek email: KLM\_PRT\_GNP 2025
+        \item Nama file: KLM\_PRT\_[Nomor Presensi]\_[Nama].pdf
+    \end{itemize}
+\end{enumerate}
+
+\section*{Tugas Review Literatur}
+Susunlah daftar kepustakaan beranotasi berdasarkan kata kunci berikut ini yang terkait dengan topik penelitian Anda. Setiap entri bibliografi harus disertai dengan anotasi yang menjelaskan isi dan relevansi sumber tersebut.
+
+\subsection*{Judul Proyek Utama}
+\ThesisTitle
+
+\subsection*{Kata Kunci Penelitian}
+\begin{itemize}
+    \item Model Markov
+    \item Pola ritme
+    \item Komposisi algoritmik
+    \item Musik komputasional
+\end{itemize}
+
+\vspace{1cm}
+
+\vspace{1cm}
+
+\end{document}
