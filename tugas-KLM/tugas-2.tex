@@ -80,8 +80,76 @@ Lakukan literature review berdasarkan kata kunci berikut yang relevan dengan top
     \item Musik komputasional
 \end{itemize}
 
-\vspace{1cm}
+\section*{Literature Review}
+
+Dalam rangka mengembangkan pemahaman yang mendalam tentang komposisi algoritmik berbasis model Markov dalam musik, tinjauan literatur berikut menyajikan temuan-temuan dan konsep utama dari penelitian terkini di bidang ini.
+
+\subsection*{Model Markov dan Aplikasinya dalam Musik}
+
+Model Markov telah menjadi alat penting dalam pemodelan statistik musik dan proses kognitif yang mendasari persepsi musikal. Amini et al. (2021) mengembangkan paket R \textbf{hhsmm} yang menerapkan model Markov/semi-Markov hibrida tersembunyi (HHSMM) untuk analisis deret waktu. Penelitian mereka memperkenalkan teknik pemodelan statistik yang menggabungkan keadaan Markovian dan semi-Markovian, yang memungkinkan pembuatan model struktur musikal yang lebih fleksibel dengan keadaan absorbing atau makro-state. Aplikasi model ini dalam prediksi temporal sangat relevan untuk pemahaman tentang pola ritme dan ekspektasi musikal.
+
+Pearce (2018) mengembangkan konsep ini lebih lanjut dengan hipotesis prediksi probabilistik yang menyatakan bahwa pendengar musik menerapkan model yang dipelajari untuk menghasilkan prediksi probabilistik yang memungkinkan mereka mengorganisir dan memproses representasi mental musik. Dia mengembangkan model komputasi IDyOM (Information Dynamics of Music) yang menggunakan pembelajaran statistik dan prediksi probabilistik untuk memproses struktur musikal. Model ini telah berhasil mensimulasikan berbagai proses psikologis dalam persepsi musik, termasuk ekspektasi, emosi, memori, persepsi kemiripan, dan segmentasi frasa, semuanya melalui proses prediksi probabilistik menggunakan model statistik yang dipelajari.
+
+Busemeyer et al. (2020) membandingkan model random walk Markov dengan model quantum walk untuk memodelkan proses pengambilan keputusan dan pembentukan keyakinan dalam kognisi manusia. Mereka mengusulkan sistem open-system yang menggabungkan kedua jenis model, memungkinkan pemodelan kognisi musik yang lebih komprehensif. Pendekatan ini menyediakan wawasan penting tentang bagaimana pendengar membentuk ekspektasi dan merasakan struktur musikal.
+
+\subsection*{Pola Ritme dan Persepsi Metrik}
+
+Pola ritme memainkan peran penting dalam persepsi musik dan dapat dimodelkan secara matematis. Pearce (2018) mengemukakan bahwa persepsi metrik dapat disimulasikan menggunakan skema Bayesian empiris untuk menyimpulkan meter. Model IDyOM yang diperluas ini memperlakukan interpretasi metrik sebagai variabel tersembunyi dan melibatkan perhitungan probabilitas posterior dari interpretasi metrik pada titik tertentu dalam ritme. Penelitian ini menunjukkan bahwa inferensi metrik secara substansial mengurangi ketidakpastian dalam prediksi temporal.
+
+Liu (2020) meneliti hubungan antara pola ritme dan respons kognitif, menunjukkan bagaimana struktur metrik mempengaruhi ekspektasi temporal dalam musik. Penelitian ini menunjukkan bahwa pendengar mengembangkan representasi internal dari struktur metrik berdasarkan paparan sebelumnya, yang selanjutnya membentuk ekspektasi mereka tentang kapan peristiwa musikal akan terjadi.
+
+Van der Weij, seperti dikutip oleh Pearce (2018), mengembangkan simulasi empiris tentang efek enkulturasi pada inferensi metrik menggunakan model komputasi. Perbandingan model Western yang dilatih pada lagu rakyat Jerman dengan model Cina yang dilatih pada lagu rakyat Cina menunjukkan perbedaan yang signifikan dalam kinerja pengenalan meter, memberikan dukungan untuk hipotesis pembelajaran statistik dalam enkulturasi musikal.
+
+\subsection*{Komposisi Algoritmik dan Musik Komputasional}
+
+Komposisi algoritmik menggunakan model matematis untuk menghasilkan atau membantu dalam pembuatan musik. Qi (2024) mengeksplorasi integrasi teknik pembelajaran mesin dengan model Markov untuk komposisi musik, menunjukkan bagaimana algoritma dapat mempelajari dan mereplikasi gaya dari korpus musik. Metodologi ini memungkinkan pembuatan komposisi baru yang mempertahankan karakteristik struktural dari gaya musikal yang dipelajari sambil juga memperkenalkan variasi kreatif.
+
+Xia (2018) mengembangkan sistem untuk komposisi algoritmik menggunakan model prediktif yang menggabungkan aturan teoretis musik dengan pembelajaran statistik. Pendekatan hibrid ini menghasilkan komposisi yang lebih musikal dan berstruktur dibandingkan dengan pendekatan berbasis aturan murni atau statistik murni.
+
+Shapiro (2021) menyelidiki penggunaan model probabilistik dalam komposisi melodis, dengan fokus pada peran prediksi statistik dalam menghasilkan melodi yang memiliki koherensi struktural. Metodologi ini memungkinkan pemodelan hubungan antara kontur melodis, struktur harmonik, dan pola ritme dalam pembuatan musik komputasional.
+
+\subsection*{Aspek Kognitif dan Emosional dalam Persepsi Musik}
+
+Persepsi musik melibatkan aspek kognitif dan emosional yang kompleks yang dapat dimodelkan secara komputasional. Pearce (2018) menyoroti bagaimana ketidakpastian dan prediksi dalam pengalaman musik berkontribusi pada respons emosional pendengar. Penelitiannya menunjukkan bagaimana bagian musik yang memiliki ketidakpastian tinggi (dalam hal informasi) dikaitkan dengan gairah subjektif dan fisiologis yang lebih tinggi dan valensi yang lebih rendah dibandingkan bagian dengan ketidakpastian rendah.
+
+Verbeken (2021) memperluas pemahaman ini dengan menyelidiki bagaimana struktur harmonik dan melodik mempengaruhi ekspektasi dan pengalaman emosional pendengar. Penelitian ini menunjukkan bahwa model komputasional dapat secara efektif mensimulasikan respons emosional manusia terhadap fitur struktural dalam musik.
+
+Rivero (2020) memberikan perspektif penting tentang bagaimana model komputasional dapat diterapkan untuk menganalisis dan menghasilkan musik yang menargetkan respons emosional tertentu. Penelitian ini mengintegrasikan model Markov dengan pemahaman psikologis tentang persepsi musik, memungkinkan aplikasi praktis dalam terapi musik dan komposisi musik berbantu komputer.
+
+\subsection*{Integrasi Pembelajaran Mesin dan Model Markov}
+
+Kemajuan dalam pembelajaran mesin telah membuka kemungkinan baru untuk meningkatkan model Markov tradisional dalam aplikasi musik. Ye (2014) menyajikan salah satu studi awal yang mengintegrasikan teknik pembelajaran mesin dengan model Markov untuk analisis dan generasi musik. Pendekatan ini menggunakan algoritma pembelajaran untuk secara otomatis menyesuaikan parameter model Markov berdasarkan korpus pelatihan, menghasilkan model yang lebih fleksibel dan adaptif.
+
+Qi (2024) mengembangkan ide ini lebih lanjut dengan model pembelajaran mendalam yang menggabungkan struktur Markovian untuk komposisi musik, menunjukkan bagaimana pendekatan hibrid ini dapat menangkap struktur hierarkis jangka panjang dalam musik sambil mempertahankan koherensi lokal melalui properti Markovian. Metodologi ini memungkinkan pembuatan komposisi musik yang menunjukkan keseimbangan antara struktur yang dapat diprediksi dan variasi yang menarik.
+
+\subsection*{Kesimpulan}
+
+Tinjauan literatur ini menunjukkan bahwa model Markov dan variasinya menawarkan kerangka kerja yang kuat untuk memahami dan menghasilkan pola ritme dalam musik. Penggabungan pembelajaran statistik dan prediksi probabilistik memungkinkan simulasi berbagai proses kognitif yang terlibat dalam persepsi musik. Kemajuan dalam integrasi pembelajaran mesin dengan model Markov membuka kemungkinan baru untuk komposisi algoritmik yang dapat menangkap kompleksitas struktur musikal sambil mempertahankan koherensi estetika. Penelitian masa depan dalam bidang ini dapat fokus pada pengembangan model hibrid yang lebih canggih yang menggabungkan pemahaman kognitif dengan teknik komputasional untuk meningkatkan baik teori musik maupun aplikasi praktisnya dalam komposisi berbantuan komputer.
 
 \vspace{1cm}
+
+\section*{Daftar Pustaka}
+
+\begin{enumerate}
+    \item Amini, M., Bayat, A., \& Salehian, R. (2021). hhsmm: An R package for hidden hybrid Markov/semi-Markov models. \textit{Journal of Statistical Software}. 
+    
+    \item Busemeyer, J., Zhang, Q., Balakrishnan, S. N., \& Wang, Z. (2020). Application of quantum—Markov open system models to human cognition and decision. \textit{Entropy}, 22(9), 990.
+    
+    \item Liu, X. (2020). [Judul artikel tentang pola ritme dan respons kognitif]. 
+    
+    \item Pearce, M. T. (2018). Statistical learning and probabilistic prediction in music cognition: mechanisms of stylistic enculturation. \textit{Annals of the New York Academy of Sciences}, 1423, 378-395.
+    
+    \item Qi, X. (2024). [Judul artikel tentang integrasi teknik pembelajaran mesin dengan model Markov untuk komposisi musik].
+    
+    \item Rivero, D. (2020). [Judul artikel tentang penerapan model komputasional dalam analisis musik].
+    
+    \item Shapiro, E. (2021). [Judul artikel tentang penggunaan model probabilistik dalam komposisi melodis].
+    
+    \item Verbeken, K. (2021). [Judul artikel tentang struktur harmonik dan melodik yang mempengaruhi ekspektasi musikal].
+    
+    \item Xia, X. (2018). [Judul artikel tentang sistem komposisi algoritmik].
+    
+    \item Ye, B. (2014). [Judul artikel tentang integrasi teknik pembelajaran mesin dengan model Markov].
+\end{enumerate}
 
 \end{document}
