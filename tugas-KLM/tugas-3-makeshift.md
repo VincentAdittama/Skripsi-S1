@@ -26,51 +26,17 @@ Dari setiap studi terpilih, diekstraksi: nama penulis dan tahun, ukuran sampel, 
 
 # Hasil
 
-## Seleksi Studi
-
-Dari 23 hasil pencarian awal, enam studi memenuhi kriteria dan disertakan dalam tinjauan ini.
-
-## Karakteristik Studi
-
-Karakteristik studi terpilih:
-
-- **Kim et al. (2020):** RCT pada 133 pasien lansia pascaoperasi di ICU, membandingkan terapi musik interaktif (IMT), mendengarkan pasif (PL), dan kontrol. Mengukur kualitas tidur (RCSQ) dan melatonin saliva.
-- **Lai & Good (2006):** RCT pada 60 lansia (60-83 tahun) di komunitas Taiwan, membandingkan musik sedatif (45 menit sebelum tidur, 3 minggu) dengan kontrol. Mengukur kualitas tidur (PSQI).
-- **Lestarini & Putra (2018):** Studi pre-eksperimental pada 31 lansia di panti sosial Bali, terapi musik selama 2 minggu. Mengukur kualitas tidur (PSQI).
-- **Li et al. (2017):** RCT pada 68 lansia (PSQI≥8) di komunitas China, membandingkan terapi musik + edukasi dengan edukasi saja selama 3 bulan. Mengukur kualitas tidur (PSQI).
-- **Petrovsky et al. (2021):** Tinjauan sistematis 16 studi pada lansia (≥50 tahun), mengevaluasi intervensi musik (mendengarkan atau multi-komponen) terhadap kualitas tidur.
-- **Zhang et al. (2020):** RCT pada 222 pasien (dewasa/lansia) pasca operasi katup mitral, membandingkan terapi musik (30 menit/hari) dengan waktu tenang. Mengukur nyeri (VAS), kecemasan (SAS), dan kualitas tidur (VSH Sleep Scale, durasi tidur).
-
-## Karakteristik Intervensi
-
-Intervensi musik bervariasi:
-
-- **Jenis**: Musik sedatif/relaksasi (Lai & Good, 2006), musik pilihan pasien (Petrovsky et al., 2021), musik interaktif (Kim et al., 2020), musik tidak spesifik (Lestarini & Putra, 2018; Li et al., 2017; Zhang et al., 2020).
-- **Metode**: Mendengarkan pasif (mayoritas), interaktif (Kim et al., 2020), multi-komponen (Petrovsky et al., 2021).
-- **Durasi & Frekuensi**: Sesi 20-60 menit, harian atau beberapa kali seminggu, selama 1 hari (Kim et al., 2020) hingga 3 bulan (Li et al., 2017).
-
-## Metode Pengukuran Kualitas Tidur
-
-Instrumen utama: PSQI (Lai & Good, 2006; Lestarini & Putra, 2018; Li et al., 2017), RCSQ (Kim et al., 2020), VSH Sleep Scale (Zhang et al., 2020). Petrovsky et al. (2021) meninjau berbagai ukuran subjektif dan objektif.
-
-## Efek Terapi Musik pada Kualitas Tidur
-
-Secara umum, studi melaporkan efek positif terapi musik:
-
-- **Kim et al. (2020):** IMT meningkatkan skor tidur subjektif (RCSQ) secara signifikan dibandingkan kontrol pada hari ke-2 pascaoperasi.
-- **Lai & Good (2006):** Musik meningkatkan kualitas tidur (PSQI total dan komponennya) secara signifikan dibandingkan kontrol, dengan efek kumulatif mingguan.
-- **Lestarini & Putra (2018):** Kualitas tidur (PSQI) membaik secara signifikan setelah 2 minggu terapi musik.
-- **Li et al. (2017):** Skor PSQI kelompok musik menurun lebih signifikan dibandingkan kontrol setelah 3 bulan.
-- **Petrovsky et al. (2021):** Tinjauan menemukan bukti beragam, namun banyak studi (terutama yang menggunakan musik relaksasi pilihan pasien atau intervensi multi-komponen) menunjukkan perbaikan kualitas tidur.
-- **Zhang et al. (2020):** Terapi musik secara signifikan meningkatkan durasi tidur dan skor VSH (gangguan, durasi, kedalaman, istirahat, kualitas subjektif) dibandingkan kontrol.
+Tinjauan literatur terhadap enam studi mengindikasikan potensi terapi musik dalam meningkatkan kualitas tidur lansia. Secara konsisten, studi melaporkan perbaikan pada skor kualitas tidur subjektif, seperti yang diukur menggunakan Pittsburgh Sleep Quality Index (PSQI), Richards-Campbell Sleep Questionnaire (RCSQ), dan VSH Sleep Scale (Lai & Good, 2006; Lestarini & Putra, 2018; Li et al., 2017; Kim et al., 2020; Zhang et al., 2020). Beberapa studi juga mencatat peningkatan durasi tidur (Zhang et al., 2020) dan efek positif dari intervensi musik interaktif (Kim et al., 2020) serta musik sedatif (Lai & Good, 2006). Tinjauan sistematis oleh Petrovsky et al. (2021) turut memperkuat temuan ini, meskipun menyoroti variasi hasil dan perlunya penelitian lebih lanjut. Efek positif tampak pada berbagai latar, termasuk komunitas, panti sosial, dan perawatan pascaoperasi, dengan durasi intervensi bervariasi dari satu hari hingga tiga bulan.
 
 # Diskusi
 
-Bukti dari 6 studi yang ditinjau dalam tinjauan ini (4 RCT, 1 pre-eksperimental, 1 tinjauan sistematis) menunjukkan bahwa terapi musik berpotensi efektif meningkatkan kualitas tidur pada lansia, baik di komunitas, panti sosial, maupun pascaoperasi. Intervensi berupa mendengarkan musik (pasif atau interaktif), terutama musik sedatif atau pilihan pasien, selama beberapa minggu tampaknya dapat memperbaiki skor kualitas tidur subjektif (PSQI, RCSQ, VSH) dan durasi tidur. Tinjauan sistematis oleh Petrovsky et al. (2021) juga mendukung temuan ini, meskipun menyoroti perlunya studi berkualitas lebih tinggi dan variasi hasil. Keterbatasan tinjauan ini meliputi fokus pada abstrak dan data terbatas dari file `.bib`, variasi desain studi, jenis intervensi, dan populasi (misal, inklusi pasien pascaoperasi). Namun, secara keseluruhan, terapi musik tampak sebagai intervensi non-farmakologis yang aman, murah, dan mudah diimplementasikan untuk meningkatkan kualitas tidur lansia.
+Temuan kolektif dari studi yang ditinjau mendukung hipotesis bahwa terapi musik merupakan intervensi non-farmakologis yang menjanjikan untuk meningkatkan kualitas tidur pada populasi lansia. Konsistensi hasil positif pada berbagai instrumen pengukuran subjektif (PSQI, RCSQ, VSH) dan di beragam setting (komunitas, institusi, pascaoperasi) memperkuat validitas temuan ini. Mekanisme yang mendasari kemungkinan melibatkan efek relaksasi musik, reduksi kecemasan, dan modulasi respons fisiologis yang kondusif untuk tidur (Lai & Good, 2006; Kim et al., 2020). Meskipun tinjauan oleh Petrovsky et al. (2021) menggarisbawahi heterogenitas dalam metodologi dan hasil studi, tren keseluruhan menunjukkan manfaat terapeutik musik.
+
+Keterbatasan tinjauan ini mencakup variasi dalam desain studi, jenis dan durasi intervensi musik, serta karakteristik populasi (misalnya, inklusi pasien pascaoperasi yang mungkin memiliki faktor perancu). Perbedaan metodologi ini menyulitkan perbandingan langsung dan sintesis kuantitatif (meta-analisis). Penelitian mendatang sebaiknya menggunakan desain RCT yang lebih terstandarisasi, ukuran sampel yang lebih besar, dan pengukuran objektif (seperti aktigrafi atau polisomnografi) di samping penilaian subjektif untuk memperkuat basis bukti.
 
 # Kesimpulan
 
-Terapi musik menunjukkan potensi sebagai intervensi non-farmakologis untuk memperbaiki kualitas tidur pada lansia berdasarkan bukti dari beberapa studi eksperimental dan sebuah tinjauan sistematis. Intervensi ini direkomendasikan sebagai bagian dari pendekatan komplementer untuk masalah tidur pada populasi lanjut usia.
+Berdasarkan tinjauan literatur ini, terapi musik menunjukkan potensi signifikan sebagai intervensi komplementer untuk mengatasi gangguan tidur pada lansia. Bukti yang ada, meskipun memerlukan penguatan melalui penelitian berkualitas lebih tinggi, secara konsisten mengarah pada perbaikan kualitas tidur subjektif. Oleh karena itu, terapi musik dapat dipertimbangkan sebagai pendekatan non-invasif, aman, dan mudah diakses untuk meningkatkan kesejahteraan lansia terkait tidur.
 
 # Daftar Pustaka
 
